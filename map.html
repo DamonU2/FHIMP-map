@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <style>
+    image {
+      font-family: "Open Sans", sans-serif;
+    }
+  </style>
+  <body>
+    <object
+      id="map-svg"
+      type="image/svg+xml"
+      data="./FHIMP-map.svg"
+      width="100%"
+      height="100%"
+    ></object>
+  </body>
+  <script>
+    const provs = [
+      "BC",
+      "AB",
+      "SK",
+      "MB",
+      "ON",
+      "QC",
+      "NB",
+      "NS",
+      "PE",
+      "NL",
+      "YT",
+      "NT",
+      "NU",
+    ];
+    window.addEventListener("load", function () {
+      var selectedProv = "";
+      const mapObject = document.getElementById("map-svg");
+      const svgObject =
+        mapObject.contentDocument || mapObject.contentWindow.document;
+      for (const prov of provs) {
+        svgObject
+          .getElementById(prov)
+          .addEventListener("click", mapClickHandler);
+        svgObject
+          .getElementById(prov)
+          .addEventListener("mouseenter", mapMouseEnter);
+        svgObject
+          .getElementById(prov)
+          .addEventListener("mouseleave", mapMouseLeave);
+        svgObject
+          .getElementById("rect" + prov)
+          .addEventListener("click", mapClickHandler);
+        svgObject
+          .getElementById("rect" + prov)
+          .addEventListener("mouseenter", mapMouseEnter);
+        svgObject
+          .getElementById("rect" + prov)
+          .addEventListener("mouseleave", mapMouseLeave);
+      }
+      function mapClickHandler(evt) {
+        var targetProv =
+          evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
+        if (evt.target.id.startsWith("path") || evt.target.id.startsWith("use"))
+          targetProv = evt.target.parentElement.id;
+        if (selectedProv)
+          svgObject.getElementById(selectedProv).style.fill = "#d3d3d3";
+        svgObject.getElementById(targetProv).style.fill = "#7375e9";
+        selectedProv = targetProv;
+      }
+      function mapMouseEnter(evt) {
+        const targetProv =
+          evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
+        if (targetProv !== selectedProv)
+          svgObject.getElementById(targetProv).style.fill = "#bdbef5";
+      }
+      function mapMouseLeave(evt) {
+        const targetProv =
+          evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
+        if (targetProv !== selectedProv)
+          svgObject.getElementById(targetProv).style.fill = "#d3d3d3";
+      }
+    });
+  </script>
+</html>
