@@ -71,16 +71,24 @@
           evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
         if (evt.target.id.startsWith("path") || evt.target.id.startsWith("use"))
           targetProv = evt.target.parentElement.id;
-        if (selectedProv)
+        if (selectedProv) {
           svgObject.getElementById(selectedProv).style.fill = "#d3d3d3";
-        svgObject.getElementById(targetProv).style.fill = "#7375e9";
+          const prevTextElement = svgObject.getElementById(
+            "text" + selectedProv
+          ).children[0].children[0];
+          prevTextElement.style.fill = "#666666";
+        }
+        svgObject.getElementById(targetProv).style.fill = "#0B6F6E";
+        const textElement = svgObject.getElementById("text" + targetProv)
+          .children[0].children[0];
+        textElement.style.fill = "#63b6b6";
         selectedProv = targetProv;
       }
       function mapMouseEnter(evt) {
         const targetProv =
           evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
         if (targetProv !== selectedProv)
-          svgObject.getElementById(targetProv).style.fill = "#bdbef5";
+          svgObject.getElementById(targetProv).style.fill = "#C2E2E2";
       }
       function mapMouseLeave(evt) {
         const targetProv =
