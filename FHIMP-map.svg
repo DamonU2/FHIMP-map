@@ -43,6 +43,7 @@
 			stroke-linejoin:round;
 			stroke-linecap:round;
 		}
+      @import url(&quot;https://fonts.googleapis.com/css?family=Open+Sans&quot;)
 	</style>
   <defs
      id="defs1">
@@ -1804,9 +1805,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2263"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2261">BC</tspan></tspan></text>
+       id="tspan1388"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1386">BC</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,-18277.259,-23780.611)"
@@ -1814,29 +1815,29 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-7);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2267"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2265">AB</tspan></tspan></text>
+       id="tspan1392"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1390">AB</tspan></tspan></text>
   <text
      xml:space="preserve"
-     transform="matrix(50,0,0,50,-12846.661,-22266.309)"
+     transform="matrix(50,0,0,50,-12846.661,-22266)"
      id="textSK"
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-9);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2271"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2269">SK</tspan></tspan></text>
+       id="tspan1396"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1394">SK</tspan></tspan></text>
   <text
      xml:space="preserve"
-     transform="matrix(50,0,0,50,-7886.0178,-21378.615)"
+     transform="matrix(50,0,0,50,-7833.8005,-22266)"
      id="textMB"
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-5);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2275"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2273">MB</tspan></tspan></text>
+       id="tspan1400"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1398">MB</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,-418.94424,-18350.013)"
@@ -1844,9 +1845,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-6);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2279"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2277">ON</tspan></tspan></text>
+       id="tspan1404"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1402">ON</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,9136.8204,-20543.139)"
@@ -1854,9 +1855,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-3);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2283"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2281">QC</tspan></tspan></text>
+       id="tspan1408"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1406">QC</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,14619.637,-14329.281)"
@@ -1864,9 +1865,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-2);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2287"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2285">NB</tspan></tspan></text>
+       id="tspan1412"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1410">NB</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,21721.189,-16261.321)"
@@ -1874,9 +1875,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-4);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2291"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2289">NS</tspan></tspan></text>
+       id="tspan1416"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1414">NS</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,17700.457,-20595.356)"
@@ -1884,9 +1885,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-78);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2295"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2293">PE</tspan></tspan></text>
+       id="tspan1420"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1418">PE</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,20363.539,-28845.689)"
@@ -1894,9 +1895,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-22);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2299"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2297">NL</tspan></tspan></text>
+       id="tspan1424"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1422">NL</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,-6685.02,-33023.072)"
@@ -1904,9 +1905,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-75);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2303"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2301">NU</tspan></tspan></text>
+       id="tspan1428"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1426">NU</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,-16710.74,-34067.418)"
@@ -1914,9 +1915,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-40);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2307"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2305">NT</tspan></tspan></text>
+       id="tspan1432"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1430">NT</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(50,0,0,50,-24752.204,-36521.631)"
@@ -1924,9 +1925,9 @@
      style="font-size:48px;white-space:pre;shape-inside:url(#rect1358-65);display:inline;fill:#000000"><tspan
        x="89.814453"
        y="568.98065"
-       id="tspan2311"><tspan
-         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#666666"
-         id="tspan2309">YT</tspan></tspan></text>
+       id="tspan1436"><tspan
+         style="font-style:italic;font-weight:bold;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#333333"
+         id="tspan1434">YT</tspan></tspan></text>
   <metadata
      id="metadata1815">
     <rdf:RDF>
