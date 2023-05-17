@@ -65,16 +65,16 @@
         svgObject
           .getElementById("rect" + prov)
           .addEventListener("mouseleave", mapMouseLeave);
-        svgObject
-          .getElementById("sml-PE")
-          .addEventListener("click", mapClickHandler);
-        svgObject
-          .getElementById("sml-PE")
-          .addEventListener("mouseenter", mapMouseEnter);
-        svgObject
-          .getElementById("sml-PE")
-          .addEventListener("mouseleave", mapMouseLeave);
       }
+      svgObject
+        .getElementById("sml-PE")
+        .addEventListener("click", mapClickHandler);
+      svgObject
+        .getElementById("sml-PE")
+        .addEventListener("mouseenter", mapMouseEnter);
+      svgObject
+        .getElementById("sml-PE")
+        .addEventListener("mouseleave", mapMouseLeave);
       function mapClickHandler(evt) {
         var targetProv =
           evt.target.id.length > 2 ? evt.target.id.slice(4) : evt.target.id;
