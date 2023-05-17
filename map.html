@@ -20,7 +20,7 @@
     <object
       id="map-svg"
       type="image/svg+xml"
-      data="./FHIMP-map-PEI.svg"
+      data="./FHIMP-map-no-lakes.svg"
       width="100%"
       height="100%"
     ></object>
@@ -66,13 +66,13 @@
           .getElementById("rect" + prov)
           .addEventListener("mouseleave", mapMouseLeave);
         svgObject
-          .getElementById("big-PE")
+          .getElementById("sml-PE")
           .addEventListener("click", mapClickHandler);
         svgObject
-          .getElementById("big-PE")
+          .getElementById("sml-PE")
           .addEventListener("mouseenter", mapMouseEnter);
         svgObject
-          .getElementById("big-PE")
+          .getElementById("sml-PE")
           .addEventListener("mouseleave", mapMouseLeave);
       }
       function mapClickHandler(evt) {
@@ -86,7 +86,7 @@
         if (selectedProv) {
           svgObject.getElementById(selectedProv).style.fill = "#d3d3d3";
           if (selectedProv === "PE")
-            svgObject.getElementById("big-PE").style.fill = "#d3d3d3";
+            svgObject.getElementById("sml-PE").style.fill = "#d3d3d3";
           const prevTextElement = svgObject.getElementById(
             "text" + selectedProv
           ).children[0].children[0];
@@ -104,7 +104,7 @@
           textElement.style.fill = "#0B6F6E";
         else textElement.style.fill = "#FFFFFF";
         if (targetProv === "PE")
-          svgObject.getElementById("big-PE").style.fill = "#0B6F6E";
+          svgObject.getElementById("sml-PE").style.fill = "#0B6F6E";
         selectedProv = targetProv;
       }
       function mapMouseEnter(evt) {
@@ -113,7 +113,7 @@
         if (targetProv !== selectedProv) {
           svgObject.getElementById(targetProv).style.fill = "#C2E2E2";
           if (targetProv === "PE")
-            svgObject.getElementById("big-PE").style.fill = "#C2E2E2";
+            svgObject.getElementById("sml-PE").style.fill = "#C2E2E2";
         }
       }
       function mapMouseLeave(evt) {
@@ -122,7 +122,7 @@
         if (targetProv !== selectedProv) {
           svgObject.getElementById(targetProv).style.fill = "#d3d3d3";
           if (targetProv === "PE")
-            svgObject.getElementById("big-PE").style.fill = "#d3d3d3";
+            svgObject.getElementById("sml-PE").style.fill = "#d3d3d3";
         }
       }
     });
